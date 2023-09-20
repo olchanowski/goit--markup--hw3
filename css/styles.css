@@ -5,6 +5,10 @@
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 :root {
   --main-color: #2196f3;
   --secondary-color: white;
@@ -19,6 +23,7 @@
   --eleven-color: #4d5ae5;
   --twelwe-color: #2e2f42;
   --thirtin-color: #434455;
+  --forteen-color: #f4f4fd;
 }
 .logo1 {
   color: var(--main-color);
@@ -64,12 +69,21 @@
   font-family: raleway;
   letter-spacing: 0.03em;
   text-decoration: none;
+  color: var(--fourth-color);
 }
-
+.hero{
+  border-bottom:solid #e7e9fc;
+  border-bottom: 1px;
+}
 .button {
   cursor: pointer;
   background-color: #e7e9fc;
   color: #4d5ae5;
+  
+
+  font-weight: 700;
+  color: var(--secondary-color);
+ 
 }
 .button:hover {
   background-color: #4d5ae5;
@@ -79,6 +93,21 @@
   cursor: pointer;
   background-color: #4d5ae5;
   color: #ffffff;
+    min-width: 200px;
+ padding: 10px 41px ;
+  border-radius: 4px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--main-color);
+line-height: 1.88;
+
+  letter-spacing: 0.06em;
+margin: auto;
+  display: block;
+
+  font-weight: 700;
+  color: var(--secondary-color);
+ 
 }
 .button-1:hover {
 }
@@ -94,9 +123,12 @@ a {
 }
 .links {
   cursor: pointer;
+  text-decoration: none;
+  color:  var(--thirtin-color);
 }
 .links:hover {
   color: #2196f3;
+  
 }
 .link {
   color: #2e2f42;
@@ -126,3 +158,89 @@ a {
   font-weight: 500;
   letter-spacing: 2%;
 }
+.nav{
+  display: flex;
+  margin: 20px,auto;
+  list-style: none;
+  padding-left: 25px;
+  gap: 24px;
+}
+.header{
+  display: flex;
+padding-left: 30px
+
+}
+.contats{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin-left: 400px;
+  text-decoration: none;
+}
+.buisness{
+  height: 600px;
+  background-color: var(--twelwe-color);
+   color: var(--fourth-color);
+}
+.effective{
+ padding-top: 200px;
+text-align: center;
+padding-bottom: 50px;
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+}
+.strategy{
+  display: flex;
+  text-decoration: none;
+  width: 1128px;
+  height: 104px;
+  list-style: none;
+}
+
+
+.container{
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  
+}
+.images-3{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.images-4{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.hero-footer{
+  max-width: 1440px;
+  height: 312px;
+  background-color:var(--twelwe-color) ;
+  margin-top: 100px;
+  padding-top: 76px;
+  padding-left: 76px;
+}
+.footer-1{
+  color: var(--forteen-color);
+  
+}
+.hero-team{
+  width: 1440px;
+  height:732px ;
+  background-color: var(--forteen-color);
+}
+.buttons-5{
+  display: flex;
+  justify-content: center;
+ text-decoration: none;
+ list-style: none;
+}
+.images-all{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+

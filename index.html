@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
-
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,9 +16,12 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <container>
+     
+    <header >
+       <div class="header">
       <nav>
-        <ul>
+        <ul class="nav">
           <li>
             <a href="./index.html">
               <span class="logo1">Web</span>
@@ -41,7 +44,7 @@
         </ul>
       </nav>
 
-      <ul>
+      <ul class="contats">
         <li>
           <a class="links" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -49,18 +52,19 @@
         </li>
         <li><a class="links" href="">+11(000)111-11-11</a></li>
       </ul>
+      </div>
     </header>
     <main>
       <section>
-        <div>
-          <h1>Effective Solution for Your Buisness</h1>
+        <div class="buisness">
+          <h1 class="effective">Effective Solution <br>for Your Buisness<br></h1>
 
           <button type="button" class="button-1">Order Service</button>
         </div>
       </section>
       <section>
         <div>
-          <ul>
+          <ul class="strategy">
             <li>
               <h4>Strategy</h4>
               <p>
@@ -93,9 +97,9 @@
         </div>
       </section>
       <section>
-        <div>
+        <div >
           <h2>What We Are Doing</h2>
-          <ul>
+          <ul class="images-3">
             <li>
               <img
                 src="./images/img 1(1).jpg"
@@ -124,9 +128,9 @@
         </div>
       </section>
       <section>
-        <div>
+        <div class="hero-team">
           <h2>Our Team</h2>
-          <ul>
+          <ul class="images-4">
             <li>
               <figure>
                 <img
@@ -175,15 +179,18 @@
         </div>
       </section>
     </main>
+    <div class="hero-footer">
     <footer class="footer">
       <a href="./portfolio.html">
         <span class="logo3">Web</span>
         <span class="logo4">Studio</span>
       </a>
-      <p>
-        Increase the flow of customers and sales for your buisness with digital
+      <p class="footer-1">
+        Increase the flow of customers and <br>sales for your buisness with digital<br>
         marketing & growth solution.
       </p>
     </footer>
+    </div>
+    </contener>
   </body>
 </html>
