@@ -36,12 +36,11 @@
   vertical-align: top;
   letter-spacing: 3%;
   text-decoration: none;
-  
 }
 
 .logo2 {
   color: var(--fifth-color);
- text-decoration: none;
+  text-decoration: none;
   font-style: bold;
   font-size: 26px;
   font-weight: 700;
@@ -73,48 +72,45 @@
   text-decoration: none;
   color: var(--fourth-color);
 }
-.hero{
-  border-bottom:solid #e7e9fc;
+.hero {
+  border-bottom: solid #e7e9fc;
   border-bottom: 1px;
 }
 .button {
   cursor: pointer;
   background-color: #e7e9fc;
   color: #4d5ae5;
-  
 
   font-weight: 700;
   color: var(--secondary-color);
- 
 }
 .button:hover {
   background-color: #4d5ae5;
   color: #ffffff;
 }
 .button-1 {
-  
-    min-width: 200px;
- padding: 10px 41px ;
+  min-width: 200px;
+  padding: 10px 41px;
   border-radius: 4px;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--main-color);
-line-height: 1.88;
+  line-height: 1.88;
 
   letter-spacing: 0.06em;
-margin: auto;
+  margin: auto;
   display: block;
 
   font-weight: 700;
   color: var(--secondary-color);
- background-color: #4d5ae5;
+  background-color: #4d5ae5;
 }
 .button-1:hover {
- background-color: #2196f3;
- cursor: pointer;
+  background-color: #2196f3;
+  cursor: pointer;
 }
 .button-1:focus {
- cursor: pointer;
+  cursor: pointer;
 }
 a:hover {
   color: #4d5ae5;
@@ -127,11 +123,10 @@ a {
 .links {
   cursor: pointer;
   text-decoration: none;
-  color:  var(--thirtin-color);
+  color: var(--thirtin-color);
 }
 .links:hover {
   color: #2196f3;
-  
 }
 .link {
   color: #2e2f42;
@@ -161,40 +156,38 @@ a {
   font-weight: 500;
   letter-spacing: 2%;
 }
-.nav{
+.nav {
   display: flex;
-  margin: 5%,auto;
- 
+  margin: 5%, auto;
+
   list-style: none;
   padding-left: 25px;
   gap: 24px;
 }
-.header{
+.header {
   display: flex;
-
-
 }
-.contats{
+.contats {
   display: flex;
   list-style: none;
   gap: 24px;
   margin-left: 700px;
   text-decoration: none;
 }
-.buisness{
+.buisness {
   height: 600px;
   background-color: var(--twelwe-color);
-   color: var(--fourth-color);
+  color: var(--fourth-color);
 }
-.effective{
- padding-top: 200px;
-text-align: center;
-padding-bottom: 50px;
-font-size: 56px;
-font-weight: 700;
-line-height: 60px;
+.effective {
+  padding-top: 200px;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
 }
-.strategy{
+.strategy {
   display: flex;
   text-decoration: none;
   width: 1128px;
@@ -202,82 +195,74 @@ line-height: 60px;
   list-style: none;
 }
 
-
-.container{
+.container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  
 }
-.images-3{
+.images-3 {
   display: flex;
   text-decoration: none;
   list-style: none;
 }
-.images-4{
+.images-4 {
   display: flex;
   text-decoration: none;
   list-style: none;
 }
-.hero-footer{
+.hero-footer {
   max-width: 1440px;
   height: 312px;
-  background-color:var(--twelwe-color) ;
+  background-color: var(--twelwe-color);
   margin-top: 100px;
   padding-top: 76px;
   padding-left: 76px;
 }
-.footer-1{
+.footer-1 {
   color: var(--forteen-color);
-  
 }
-.hero-team{
+.hero-team {
   width: 1440px;
-  height:732px ;
+  height: 732px;
   background-color: var(--forteen-color);
 }
-.buttons-5{
+.buttons-5 {
   display: flex;
   justify-content: center;
- text-decoration: none;
- list-style: none;
-margin-top: 80px;
-margin-bottom: auto;
-gap: 25px;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 80px;
+  margin-bottom: auto;
+  gap: 25px;
 }
-.lol{
-background-color: #cdd4f8;
-color: #4d5ae5;
- width: 80px;
- height: 30px;
-margin-bottom: 50px;
-margin-top: 50px;
-border-radius: 4px;
+.lol {
+  background-color: #cdd4f8;
+  color: #4d5ae5;
+  width: 80px;
+  height: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 4px;
 }
 .lol:hover {
   background-color: #4d5ae5;
   color: #ffffff;
 }
-.images-all{
+.images-all {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   gap: 20px;
-  margin-left:100px;
+  margin-left: 100px;
   padding-left: 50px;
   margin-right: 100px;
   justify-content: center;
- 
 }
-.karty{
-border: #757575;
-border-radius: 4%;
-
+.karty {
+  border: #757575;
+  border-radius: 4%;
 }
-.images{
-  
-border: #757575;
-border-radius: 4%;
-
+.images {
+  border: #757575;
+  border-radius: 4%;
 }
-
