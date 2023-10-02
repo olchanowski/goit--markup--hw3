@@ -193,6 +193,10 @@ a {
   width: 1128px;
   height: 104px;
   list-style: none;
+  margin-top: 100px;
+  margin-left: 90px;
+  padding-left: 40px;
+  gap: 30px;
 }
 
 .container {
@@ -204,12 +208,14 @@ a {
   display: flex;
   text-decoration: none;
   list-style: none;
-  display: block;
+  display:inline- block;
+  gap: 20px;
 }
 .images-4 {
   display: flex;
   text-decoration: none;
   list-style: none;
+ gap: 20px;
 }
 .hero-footer {
   max-width: 1440px;
@@ -235,7 +241,9 @@ a {
   margin-top: 80px;
   margin-bottom: auto;
   gap: 25px;
+
 }
+
 .lol {
   background-color: #cdd4f8;
   color: #4d5ae5;
@@ -248,6 +256,7 @@ a {
 .lol:hover {
   background-color: #4d5ae5;
   color: #ffffff;
+  cursor: pointer;
 }
 .images-all {
   display: flex;
@@ -258,6 +267,7 @@ a {
   padding-left: 50px;
   margin-right: 100px;
   justify-content: center;
+  display:inline -block;
 }
 .karty {
   border: #757575;
@@ -266,4 +276,12 @@ a {
 .images {
   border: #757575;
   border-radius: 4%;
+}
+.our-team {
+margin-left: 700px;
+
+}
+.header {
+  border-bottom: #757575;
+  border-bottom: 2px;
 }
