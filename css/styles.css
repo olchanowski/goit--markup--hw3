@@ -317,8 +317,8 @@ a {
   border-radius: 4%;
   height: 100px;
 }
-img{
-  display:block;
-  max-width:100%;
-  height:auto;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
