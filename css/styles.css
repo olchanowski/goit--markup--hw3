@@ -36,7 +36,7 @@ ol {
   --thirtin-color: #434455;
   --forteen-color: #f4f4fd;
 }
-.logo1 {
+.header-logo {
   color: var(--main-color);
   font-family: raleway;
   font-size: 26px;
@@ -45,21 +45,16 @@ ol {
   line-height: 100%;
   align: left;
   vertical-align: top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-decoration: none;
+  font-weight: 700;
+  margin: 76px;
+  display: flex;
+  gap: 40px;
 }
 
-.logo2 {
+.logo-part {
   color: var(--fifth-color);
-  text-decoration: none;
-  font-style: bold;
-  font-size: 26px;
-  font-weight: 700;
-  font-family: raleway;
-  letter-spacing: 3%;
-  line-height: 31px;
-  line-height: 100%;
-  align: left;
 }
 .logo3 {
   color: var(--main-color);
@@ -169,17 +164,26 @@ a {
 }
 .nav-1 {
   display: flex;
-  margin: 5%, auto;
-  list-style: none;
-  padding-left: 25px;
-  gap: 24px;
+  align-items: center;
+  padding: 24px 0;
+
+  color: #4d5ae5;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+  font-family: roboto;
+  font-weight: 500;
+  color: #2e2f42;
 }
 
 .header {
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
-  width: 1158px;
-  height: 72px;
+}
+.container-header-wrap {
+  display: flex;
+  align-items: center;
 }
 .header-1 {
   display: flex;
@@ -192,8 +196,12 @@ a {
   display: flex;
   list-style: none;
   gap: 24px;
-  margin-left: 700px;
+  padding-left: 700px;
   text-decoration: none;
+  color: #434455;
+  font-family: roboto;
+  font-weight: 400;
+  letter-spacing: 2%;
 }
 .buisness {
   height: 600px;
@@ -220,6 +228,7 @@ a {
   gap: 30px;
 }
 .container {
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
