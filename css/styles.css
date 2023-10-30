@@ -195,14 +195,16 @@ a {
 .contats {
   display: flex;
   list-style: none;
-  gap: 24px;
-  padding-left: 700px;
+  gap: 40px;
+
   text-decoration: none;
   color: #434455;
   font-family: roboto;
   font-weight: 400;
   letter-spacing: 2%;
+  margin-left: auto;
 }
+
 .buisness {
   height: 600px;
   background-color: var(--twelwe-color);
