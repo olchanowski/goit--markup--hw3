@@ -56,6 +56,17 @@ ol {
 .logo-part {
   color: var(--fifth-color);
 }
+.logo1{
+  margin-right: 76px;
+  font-weight: 800;
+  font-family: raleway;
+  color: #4d5ae5;
+}
+.logo2{
+  color: #000000;
+}
+
+
 .logo3 {
   color: var(--main-color);
   font-weight: 700;
@@ -166,7 +177,7 @@ a {
   display: flex;
   align-items: center;
   padding: 24px 0;
-
+margin-right: auto;
   color: #4d5ae5;
 }
 
