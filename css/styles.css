@@ -1,5 +1,5 @@
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: roboto;
   color: #2e2f42;
   background-color: #ffffff;
   font-size: 14px;
@@ -52,20 +52,22 @@ ol {
   display: flex;
   gap: 40px;
 }
+.address-header{
+  font-style: normal;
+}
 
 .logo-part {
   color: var(--fifth-color);
 }
-.logo1{
+.logo1 {
   margin-right: 76px;
   font-weight: 800;
   font-family: raleway;
   color: #4d5ae5;
 }
-.logo2{
+.logo2 {
   color: #000000;
 }
-
 
 .logo3 {
   color: var(--main-color);
@@ -81,12 +83,6 @@ ol {
   text-decoration: none;
 }
 .logo4 {
-  font-weight: 700;
-  font-size: 26px;
-  font-style: bold;
-  font-family: raleway;
-  letter-spacing: 0.03em;
-  text-decoration: none;
   color: var(--fourth-color);
 }
 .hero {
@@ -177,7 +173,7 @@ a {
   display: flex;
   align-items: center;
   padding: 24px 0;
-margin-right: auto;
+  margin-right: auto;
   color: #4d5ae5;
 }
 
@@ -217,17 +213,19 @@ margin-right: auto;
 }
 
 .buisness {
-  height: 600px;
+ 
   background-color: var(--twelwe-color);
-  color: var(--fourth-color);
+padding: 188px 0;
 }
 .effective {
-  padding-top: 200px;
+ margin: o auto;
   text-align: center;
-  padding-bottom: 50px;
+max-width: 496px;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
+  margin-bottom: 48px;
+  color: #ffffff;
 }
 .strategy {
   display: flex;
@@ -262,12 +260,10 @@ margin-right: auto;
   display: inline- block;
 }
 .hero-footer {
-  width: 1440px;
-  height: 312px;
   background-color: var(--twelwe-color);
-  margin-top: 100px;
-  padding-top: 76px;
-  padding-left: 76px;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-1 {
   color: var(--forteen-color);
