@@ -66,6 +66,7 @@ ol {
   color: #4d5ae5;
   font-size: 18px;
   line-height: 21px;
+  text-transform: uppercase;
 }
 .logo2 {
   color: #000000;
@@ -79,9 +80,9 @@ ol {
   font-weight: 700;
   font-family: raleway;
   letter-spacing: 3%;
-display: inline-block;
+  display: inline-block;
   line-height: 100%;
-margin-bottom: 16px;
+  margin-bottom: 16px;
   text-decoration: none;
 }
 .logo4 {
@@ -143,6 +144,7 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: var(--thirtin-color);
+  font-size: 16px;
 }
 .links:hover {
   color: #2196f3;
@@ -268,7 +270,7 @@ p {
 }
 .hero-footer {
   background-color: var(--twelwe-color);
-
+  margin: 0;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -287,18 +289,20 @@ p {
   justify-content: center;
   text-decoration: none;
   list-style: none;
-  margin-top: 80px;
-  margin-bottom: auto;
+
+  margin-bottom: 72px;
   gap: 24px;
 }
 
 .lol {
   background-color: #f4f4fd;
   color: #4d5ae5;
-  width: 80px;
-  height: 30px;
-  margin-bottom: 50px;
+  border: none;
+  padding: 12px 24px;
   border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: roboto;
 }
 .lol:hover {
   background-color: #4d5ae5;
@@ -309,15 +313,18 @@ p {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  gap: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
-  justify-content: center;
+  gap: 48px 24px;
+  display-flex: wrap;
 }
 
 .our-team {
   margin-bottom: 72px;
   text-align: center;
+  font-family: roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: capitalize;
 }
 
 .images-9 {
@@ -327,9 +334,7 @@ p {
   border-top: 0px;
   border-color: #e7e9fc;
   border-style: solid;
-  margin: 0;
-  border-radius: 4%;
-  height: 100px;
+  padding: 32px 16px;
 }
 .images-8 {
   border-left: 1px;
@@ -363,4 +368,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.studio {
+  padding: 96px 120px;
 }
