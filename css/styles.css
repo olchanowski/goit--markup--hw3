@@ -276,6 +276,7 @@ p {
 }
 .footer-1 {
   color: var(--forteen-color);
+   max-width: 264px;
 }
 
 .hero-team {
